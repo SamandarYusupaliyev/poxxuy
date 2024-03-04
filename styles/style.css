@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* hanken-grotesk-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/hanken-grotesk-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* hanken-grotesk-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/hanken-grotesk-v8-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* hanken-grotesk-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/hanken-grotesk-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* hanken-grotesk-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/hanken-grotesk-v8-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+body{
+    height: 100%;
+    background-color:#88a0e2;
+}
+
+.container{
+    width:100%;
+    display: flex;
+width: 1440px;
+height: 700px;
+padding: 284px 352px;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+.box{
+    width: 736px;
+height: 512px;
+flex-shrink: 0;
+border-radius: 32px;
+display: flex;
+background: var(--White, #FFF);
+box-shadow: 0px 30px 60px 0px rgba(43, 75, 171, 0.15);
+}
+
+.card{
+    width: 368px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 32px;
+background:linear-gradient( rgba(119, 85, 255, 1), rgb(57, 13, 234) ,rgb(18, 14, 201));
+}
+
+.title_1{
+    padding-top: 38px;padding-left: 119px;
+    color: var(--Light-Blue, #CAC9FF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 24px;
+font-weight: 700;
+padding-bottom: 35px;
+}
+
+.box_1{
+    width: 200px;
+height: 200px;
+flex-shrink: 0;
+background:linear-gradient( rgb(28, 25, 215), rgb(83, 46, 231) ,rgb(102, 74, 212));
+border: 2px solid  #5b2cdb;
+margin-left: 84px;
+margin-right: 84px;
+border-radius: 50%;
+margin-bottom: 29px;
+}
+
+
+
+.title_2{
+  color: var(--White, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 72px;
+font-weight: 800;
+line-height: 72px; 
+padding-top: 55px;
+padding-left: 59px;
+padding-bottom:73px ;
+padding-right:60px ;
+}
+
+.title_4{
+    color: var(--White, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 14px;
+}
+
+.text{
+    margin-left: 70px;
+    padding-right: 54px;
+    margin-bottom: 55px;
+    color: var(--Light-Blue, #CAC9FF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 500;
+}
+
+.card_1{
+    width: 368px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background-color: #FFF; 
+}
+
+.title_5{
+    padding-top: 38px;
+    padding-left: 40px;
+    color: var(--Dark-Navy, #303B59);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 28px;
+}
+/* user */
+ .user{
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 12px;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 40px;
+margin-right: 40px;
+padding-bottom: 18px; 
+margin-bottom: 20px;
+ }
+
+ .foto{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 15px;
+    margin-top:15px;
+ }
+
+ .user_1--foto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .title_6{
+    padding-top: 17px;
+    color: var(--Red,#F55);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 500;
+ }
+
+ .text_1{
+    color: var(--Dark-Navy, #303B59);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 700;
+padding-top: 17px;
+padding-right: 15px;
+ }
+
+/* user2 */
+.user2{
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 40px;
+margin-right: 40px;
+padding-bottom: 18px; 
+margin-bottom: 20px;
+ }
+
+ .foto{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 15px;
+    margin-top:15px;
+ }
+
+ .user_1--foto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .title_7{
+    padding-top: 17px;
+    color: var(--Red,#FFB21E);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 500;
+ }
+
+ .text_1{
+    color: var(--Dark-Navy, #303B59);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 700;
+padding-top: 17px;
+padding-right: 15px;
+ }
+/* user3 */
+ .user3{
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 40px;
+margin-right: 40px;
+padding-bottom: 18px; 
+margin-bottom: 20px;
+ }
+
+ .foto{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 15px;
+    margin-top:15px;
+ }
+
+ .user_1--foto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .title_8{
+    padding-top: 17px;
+    color: var(--Red,#00BB8F);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 500;
+ }
+
+ .text_1{
+    color: var(--Dark-Navy, #303B59);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 700;
+padding-top: 17px;
+padding-right: 15px;
+ }
+
+
+/* user4 */
+ .user4{
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 40px;
+margin-right: 40px;
+padding-bottom: 18px; 
+margin-bottom: 35px;
+ }
+
+ .foto{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 15px;
+    margin-top:15px;
+ }
+
+ .user_1--foto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .title_9{
+    padding-top: 17px;
+    color: var(--Red,#1125D6);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 500;
+ }
+
+ .text_1{
+    color: var(--Dark-Navy, #303B59);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 700;
+padding-top: 17px;
+padding-right: 15px;
+ }
+  .btn{
+    width: 288px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 128px;
+background: var(--Dark-Navy, #303B59);
+margin-left: 40px;
+color: var(--White, #FFF);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-weight: 700;
+text-align:center ;
+border: none;
+  }
+  .btn:hover{
+    background: var(--Dark-Navy, #3d67da);
+    cursor: pointer;
+    transition-duration: 2s;
+  }
